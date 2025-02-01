@@ -9,14 +9,15 @@ body {
 /* Hero Section (l'header) */
 .hero {
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 20px; /* Aggiungi un po' di padding laterale */
     background-color: #F2E8D5;
 }
 
 /* Logo */
 .hero img {
-    max-width: 100%;
+    max-width: 90%;  /* Impedisce che il logo diventi troppo grande */
     height: auto;
+    margin: 0 auto;  /* Centra il logo */
 }
 
 /* Titolo o slogan */
@@ -24,4 +25,15 @@ body {
     color: #333;
     font-size: 36px;
     margin-top: 20px;
+    font-weight: bold; /* Rende il testo più visibile */
+}
+
+/* Ottimizzazione per dispositivi mobili */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 28px; /* Riduce la dimensione del font sui dispositivi più piccoli */
+    }
+    .hero {
+        padding: 60px 20px; /* Riduce il padding su schermi piccoli */
+    }
 }
