@@ -1,0 +1,27 @@
+/* Impostazioni generali */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2E8D5; /* Colore di sfondo dell'header */
+}
+
+/* Hero Section (l'header) */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #F2E8D5;
+}
+
+/* Logo */
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Titolo o slogan */
+.hero h1 {
+    color: #333;
+    font-size: 36px;
+    margin-top: 20px;
+}
